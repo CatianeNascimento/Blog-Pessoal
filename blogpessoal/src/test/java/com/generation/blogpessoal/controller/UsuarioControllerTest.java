@@ -39,7 +39,7 @@ public class UsuarioControllerTest {
 
 		usuarioRepository.deleteAll();
 
-		usuarioService.cadastrarUsuario(new Usuario(0L, "Root", "root@root.com", "rootroot", " "));
+		usuarioService.cadastrarUsuario(new Usuario(0L, "RootR", "root@root.com", "rootroot", " "));
 
 	}
 
